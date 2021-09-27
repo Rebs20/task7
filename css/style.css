@@ -1,0 +1,675 @@
+*::before,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: 30px;
+    background-image: url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.house-service{
+    margin-top: 60%;
+}
+
+.row{
+    margin-right: 50%;
+    padding-bottom: 30%;
+}
+
+.row h1{
+    font-size: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.row h2{
+    font-weight: lighter;
+    font-size: 50px;
+    padding-top: 40%;
+    margin-left: 30px;
+}
+
+.line{
+  border: 4px solid #fff;
+}
+
+.paint-roller{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cleaning-tools{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tap{
+    margin-top: 22px;
+}
+
+
+.house-tools{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-right: 1%;
+}
+
+.section-1{
+    width: 100%;
+    height: 50%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.headings{
+    margin-left: 30%;
+    padding-top: 10px;
+   
+}
+
+.headings h5{
+    padding-left: 20%;
+    font-size: 20px;
+}
+
+.headings h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 10px 5px;
+    font-family: 50px roboto sans-serif;
+    padding-right: 40%;
+}
+
+.paragraph-1{
+    width: 60%;
+    margin-right: 60%;
+    margin-top: 5%;
+    font-size: 20px;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #111111;
+}
+
+.submit{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-right: 50%;
+    margin-bottom: 10%;
+}
+
+.submit-button{
+    width: 150px;
+    height: 50px;
+    background-color: #e71a23;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto,sans-serif
+}
+
+.help-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-section img{
+    width: 100%;
+}
+
+.help-section .plump{
+    width: 48%;
+    padding: 100px 0;
+}
+
+.help-section .right-away{
+    width: 48%;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.need{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.need-2{
+    font-size: 30px;
+    margin-left: 100px;
+    color: red;
+}
+
+.best-quality{
+    background-color: #F2F2F2;
+}
+
+.over{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plumber-2 img{
+    width: 100%;
+}
+
+.plumber-2{
+    width: 50%;
+}
+.plumber-text{
+    width: 50%;
+}
+
+
+.best-text{
+    font-size: 70px;
+    color: #104E92;
+}
+
+.paragraph-3{
+    width: 70%;
+    font-size: 20px;
+}
+.line-2{
+    border: 4px solid#e71a23;
+    width: 70%;
+    margin-right: 30%;
+}
+
+.book-sec{
+    width: 150px;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: -50px;
+    background-color: #e71a23;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto,sans-serif
+    
+}
+
+.book-section .book-sec{
+    margin-top: 2px;
+    margin-left: 0.1rem;
+}
+
+
+.picture-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-div .img-div{
+    width: 30%;
+}
+
+.picture-div .red-icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    background-color: #e71a23;
+    fill: #fff;
+    padding: 10px;
+}
+
+.service-section{
+    padding: 100px 0;
+}
+
+.service-section .service-div{
+    margin: 100px 0;
+}
+
+.first-div{
+    display: flex;
+    justify-content: space-between;
+}
+.first-div h5{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+
+.first-div img{
+    margin-right: 100px;
+}
+
+
+.sec-plumbing{
+    background-color: #104e92;
+    color: #fff;
+}
+
+
+.about-us{
+    font-size: 30px;
+}
+
+.plumbing-h{
+    font-size: 90px;
+}
+
+
+.last-section{
+    height: 50vh;
+}
+
+
+.to-do{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-sec{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.last-book{
+    width: 150px;
+    height: 50px;
+    background-color: #e71a23;
+    color: white;
+    border: unset;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto,sans-serif
+    
+}
+
+.call-sec{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto,sans-serif
+}
+
+.button-2{
+    margin-left: 35%;
+}
+
+.last-div{
+    margin-right: 40%;
+}
+
+.finale{
+    height: 40vh;
+    background-color: #333333;
+    color: #fff;
+}
+
+.finale-text{
+    padding-top: 5%;
+   margin-left: 40%;
+   font-size: 20px;
+}
+
+.sample{
+    margin-left: -80px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-section{
+    display: flex;
+}
+
+.about-section .plumb-div{
+    width: 50%;
+}
+
+.about-section .image-class{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-section .image-class img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-section .image-class .img-box{
+    width: 48%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+   @media screen and (max-width: 426px) {
+     .header{
+         background-image: url(../img/hero-bg.jpg);
+         background-position: 80% 20%;
+    }
+
+    .header .house-tools{
+        display: none;
+    }
+
+     .header .house-service {
+       width: 100%;
+       margin-top: 100px;
+       margin-left: 70px;
+    }
+ 
+      .header .line{
+        border: 4px solid #fff
+    }
+    
+     .section-1 .how{
+      width: 90%;
+      margin-left: -30px;
+    }
+
+    .section-1 .paragraph-1{
+        font-size: 10px;
+    }
+
+    .section-1 .our{
+        margin-left: -70px;
+    }
+
+    .button-sec{
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .button-sec .first-section{
+       margin-left: -30px;
+       margin-top: 30px;
+    }
+
+    .button-sec .call-section{
+        margin-top: 30px;
+        margin-right: -80px;
+        margin-left: 30px;
+    }
+
+    .help-section .plump{
+        width: 100%;
+    }
+
+     .help-section .right-away{
+        width: 100%;
+    }
+    .help-section .need,.help-section .need-2{
+        margin-left: 0;
+    } 
+
+    .best-quality .over{
+      flex-direction: column;
+    }
+
+    .best-quality .over .plumber-2{
+        width: 100%;
+    }
+
+    .plumber-text{
+        width: 100%;
+    }
+
+    .plumbing-h{
+        font-size: 30px;
+    }
+
+     .service-section{
+        margin-top: 10px;
+    }
+
+    .best-quality .book-sec{
+        margin-right: -50px;
+    }
+
+     .service-section .our-services{
+        font-size: 30px;
+        margin-left: -20px;
+        margin-top: 200px;
+    }
+
+     .service-section .picture-div{
+         flex-direction: column;
+    }
+     .service-section .img-div{
+         width: 100%;
+    }
+
+     .last-section{
+         height: 80vh;
+    }
+
+    .last-section .real{
+        font-size: 20px;
+   }
+
+    .last-section .professional{
+        margin-top: -10px;
+   }
+
+     .last-section .call-sec{
+         width: 100%;
+         margin-right: 30px;
+    }
+
+     .last-section .last-book{
+         width: 90%;
+         margin-right: 30px;
+    }
+
+    .to-do{
+        width: 90%;
+    }
+
+     .finale .sample{
+         font-size: 8px;
+    }
+
+     .finale .click{
+         font-size: 8px;
+         margin-left: -20px;
+    }
+
+    .about-section .image-class{
+        flex-direction: column;
+    }
+
+    .about-section .image-class .img-box{
+        width: 100%;
+    }
+
+
+    }
+
+   @media screen and (max-width: 769px) {
+        .header{
+            background-position: 70% 10%;
+           
+       }
+
+      .header .house-repair{
+          font-size: 30px;
+          margin-left: 50px;
+      } 
+
+       .header .services{
+          font-size: 50px;
+          margin-left: 10px;
+      }
+
+       .header .tap-image{
+          margin-left: 20px;
+      } 
+
+      .section-1 .how{
+          font-size: 25px;
+      }
+
+      .section-1 .paragraph-1{
+          width: 100%;
+          margin-left: -60px;
+      }
+
+      .help-section{
+          flex-direction: column;
+      }
+
+      .help-section .plump{
+          width: 100%;
+      }
+
+       .help-section .right-away{
+          width: 100%;
+      } 
+
+       .best-quality .a-plumber{
+          width: 100%;
+       }
+
+       .best-quality .best-text{
+           font-size: 40px;
+           margin-left: 30px;
+       }
+
+       .best-quality .line-2{
+          margin-left: 30px;
+       }
+
+       .best-quality .paragraph-3{
+           margin-left: 60px;
+       }
+
+       .best-quality .book-sec{
+           margin-left: 50px;
+       }
+
+       .service-section .our-services{
+           font-size: 40px;
+       }
+
+       .service-section .painter-img{
+           margin-left: 30px;
+           width: 70px;
+       }
+
+       .service-section .painting-h{
+           width: 20%;
+           margin-top: 20px;
+           margin-left: 10px;
+       }
+
+       .service-section .painting-p{
+           margin-left: 5px;
+           margin-top: -20px;
+           font-size: 20px;
+           width: 200px;
+         }
+
+         .service-section .electric{
+             margin-left: 20px;
+             width: 30%;
+         }
+
+         .service-section .electrical{
+             margin-left: 30px;
+             width: 150%;
+         }
+
+         .service-section .electric-p{
+             font-size: 20px;
+             margin-top: -10px;
+             margin-left: 30px;
+             width: 200px;
+         }
+
+         .service-section .screwdriver{
+             width: 70px;
+         }
+
+         .service-section .repair{
+             margin-top: 20px;
+
+         }
+
+         .service-section .screwdriver-p{
+             font-size: 20px;
+             margin-top: 10px;
+             width: 200px;
+         }
+         .last-section{
+             height: 80vh;
+         }
+
+         .last-section .real{
+             font-size: 20px;
+             font-weight: bolder;
+         }
+
+         .last-section .professional{
+             font-size: 20px;
+         }
+
+         .last-section .last-book{
+             margin-left: 20px;
+         }
+
+         .last-section .call-sec{
+             margin-left: 20px;
+         }
+
+         .about-section .plumb-div{
+             width: 100%;
+         }
+
+         .about-section .image-class{
+             width: 100%;
+         }
+
+         .sec-plumbing .about-section {
+            flex-direction: column;
+         }
+
+
+    }
+
+    
+
+
+
+
